@@ -4,11 +4,13 @@ import LoginPage from "./components/loginPage"
 import MainPage from "./components/mainPage"
 
 
+
+
 export default function Home() {
   const {currentUser} = useAuth();
 
   return (
-    <div className="w-screen h-screen flex">
+    <div className="w-screen h-screen">
       {!currentUser && <LoginPage/>}
       {currentUser && <MainPage/>}
     </div>
