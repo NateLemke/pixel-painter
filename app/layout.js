@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Pixel Painter",
-  description: "A program word drawing pixel art.",
+  description: "A program for drawing pixel art.",
 };
 
 export default function RootLayout({ children }) {
