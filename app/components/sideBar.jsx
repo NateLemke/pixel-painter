@@ -82,17 +82,17 @@ export default function SideBar() {
                         <div className={`flex justify-center items-center aspect-square w-auto 
                          hover:bg-zinc-600 ${(selectedBrush === 0)?"bg-zinc-700":"bg-zinc-800"} 
                          rounded-md`} onClick={() => handleBrush("small", 0)}>
-                            <div className="w-5 h-5 bg-black"/>
+                            <div className="md:w-5 md:h-5 w-2 h-2 bg-black"/>
                         </div>
                         <div className={`flex justify-center items-center aspect-square w-auto 
                          hover:bg-zinc-600 ${(selectedBrush === 1)?"bg-zinc-700":"bg-zinc-800"} 
                          rounded-md`} onClick={() => handleBrush("medium", 1)}>
-                            <div className="w-10 h-10 bg-black"/>
+                            <div className="md:w-7 md:h-7 w-4 h-4 bg-black"/>
                         </div>
                         <div className={`flex justify-center items-center aspect-square w-auto 
                          hover:bg-zinc-600 ${(selectedBrush === 2)?"bg-zinc-700":"bg-zinc-800"} 
                          rounded-md`} onClick={() => handleBrush("large", 2)}>
-                            <div className="w-16 h-16 bg-black"/>
+                            <div className="md:w-10 md:h-10 w-6 h-6 bg-black"/>
                         </div>
                     </div>
                     {/* Custom Colour Menu */}
